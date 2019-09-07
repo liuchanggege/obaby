@@ -2,7 +2,7 @@ from django.shortcuts import render,HttpResponse,HttpResponseRedirect
 
 # Create your views here.
 
-#cookie和session设置练习
+#cookie和session设置练习2
 def index(request):
     #获取cookie
     cookie=request.COOKIES
@@ -15,7 +15,7 @@ def login(request):
     Response1=HttpResponse()
     a1=request.GET['a']
     #设置session
-    session=request.session['uname']='liuchang'
+    session=request.session['uname']='liuchanggege'
     print(type(session))
     print(session)
     context={'session':session,'b':a1}
@@ -39,3 +39,4 @@ def Redirect2(request):
 def testPost(request):
     content={"a":1,"b":2,"c":3}
     return HttpResponse(content=content)
+
