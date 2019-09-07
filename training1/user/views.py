@@ -2,7 +2,7 @@ from django.shortcuts import render,HttpResponse,HttpResponseRedirect
 
 # Create your views here.
 
-#cookie和session设置练习2
+#cookie和session设置练习2233
 def index(request):
     #获取cookie
     cookie=request.COOKIES
