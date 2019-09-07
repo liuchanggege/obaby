@@ -1,0 +1,1453 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 15:03:00 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/Desktop/PycharmProjects/Django/training1
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 15:23:45 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/Desktop/PycharmProjects/Django/training1
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 15:30:20 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/Desktop/PycharmProjects/Django/training1
+chdir(): No such file or directory [core/uwsgi.c line 2623]
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 15:45:15 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 256
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8899 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:49278 (port auto-assigned) fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7ffc9f706f00
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ffc9f706f00 pid: 779 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 779)
+spawned uWSGI worker 1 (pid: 780, cores: 2)
+spawned uWSGI worker 2 (pid: 781, cores: 2)
+spawned uWSGI worker 3 (pid: 782, cores: 2)
+spawned uWSGI worker 4 (pid: 783, cores: 2)
+spawned uWSGI http 1 (pid: 784)
+Not Found: /
+[pid: 780|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 769 bytes} [Sat Jul 13 07:45:47 2019] GET / => generated 2012 bytes in 55 msecs (HTTP/1.1 404) 2 headers in 80 bytes (2 switches on core 0)
+Not Found: /favicon.ico
+[pid: 783|app: 0|req: 1/2] 127.0.0.1 () {38 vars in 715 bytes} [Sat Jul 13 07:45:48 2019] GET /favicon.ico => generated 2045 bytes in 29 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+[pid: 780|app: 0|req: 2/3] 127.0.0.1 () {38 vars in 781 bytes} [Sat Jul 13 07:45:54 2019] GET /admin/ => generated 0 bytes in 41 msecs (HTTP/1.1 302) 7 headers in 292 bytes (2 switches on core 1)
+[pid: 783|app: 0|req: 2/4] 127.0.0.1 () {38 vars in 818 bytes} [Sat Jul 13 07:45:54 2019] GET /admin/login/?next=/admin/ => generated 1679 bytes in 41 msecs (HTTP/1.1 200) 7 headers in 373 bytes (1 switches on core 1)
+Internal Server Error: /admin/login/
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 193, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 582, in connect
+    **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/views/decorators/cache.py", line 57, in _wrapped_view_func
+    response = view_func(request, *args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 382, in login
+    if request.method == 'GET' and self.has_permission(request):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/admin/sites.py", line 173, in has_permission
+    return request.user.is_active and request.user.is_staff
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 340, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/auth/middleware.py", line 22, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 167, in get_user
+    user_id = _get_user_session_key(request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/auth/__init__.py", line 59, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 48, in __getitem__
+    return self._session[key]
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 198, in _get_session
+    self._session_cache = self.load()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 33, in load
+    expire_date__gt=timezone.now()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 381, in get
+    num = len(clone)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 240, in __len__
+    self._fetch_all()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 841, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 393, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 157, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 150, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 625, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 184, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 359, in mysql_version
+    with self.temporary_connection():
+  File "/Users/liuchang/miniconda3/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 564, in temporary_connection
+    cursor = self.cursor()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 231, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 204, in _cursor
+    self.ensure_connection()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+[pid: 783|app: 0|req: 3/5] 127.0.0.1 () {40 vars in 849 bytes} [Sat Jul 13 07:46:14 2019] GET /admin/login/?next=/admin/ => generated 304938 bytes in 164 msecs (HTTP/1.1 500) 3 headers in 106 bytes (1 switches on core 0)
+Not Found: /user
+[pid: 781|app: 0|req: 1/6] 127.0.0.1 () {38 vars in 777 bytes} [Sat Jul 13 07:46:29 2019] GET /user => generated 2024 bytes in 34 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+{'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v', 'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk'}
+[pid: 783|app: 0|req: 4/7] 127.0.0.1 () {38 vars in 789 bytes} [Sat Jul 13 07:46:40 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 784)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Jul 13 16:06:13 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8899 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:49401 (port auto-assigned) fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7ff62f6014b0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff62f6014b0 pid: 1231 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1231)
+spawned uWSGI worker 1 (pid: 1232, cores: 2)
+spawned uWSGI worker 2 (pid: 1233, cores: 2)
+spawned uWSGI worker 3 (pid: 1234, cores: 2)
+spawned uWSGI worker 4 (pid: 1235, cores: 2)
+spawned uWSGI http 1 (pid: 1236)
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 193, in _get_session
+    return self._session_cache
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 582, in connect
+    **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 17, in login
+    session=request.session['uname']='liuchang'
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 51, in __setitem__
+    self._session[key] = value
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 198, in _get_session
+    self._session_cache = self.load()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 33, in load
+    expire_date__gt=timezone.now()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/manager.py", line 122, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 381, in get
+    num = len(clone)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 240, in __len__
+    self._fetch_all()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 1074, in _fetch_all
+    self._result_cache = list(self.iterator())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 52, in __iter__
+    results = compiler.execute_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 841, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 393, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 157, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 150, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 625, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 184, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 359, in mysql_version
+    with self.temporary_connection():
+  File "/Users/liuchang/miniconda3/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 564, in temporary_connection
+    cursor = self.cursor()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 231, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 204, in _cursor
+    self.ensure_connection()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+[pid: 1235|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 787 bytes} [Sat Jul 13 08:06:35 2019] GET /user/login => generated 274145 bytes in 191 msecs (HTTP/1.1 500) 3 headers in 106 bytes (2 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 2/2] 127.0.0.1 () {38 vars in 788 bytes} [Sat Jul 13 08:07:11 2019] GET /user/index => generated 262 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 3/3] 127.0.0.1 () {40 vars in 819 bytes} [Sat Jul 13 08:08:51 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 4/4] 127.0.0.1 () {40 vars in 819 bytes} [Sat Jul 13 08:08:53 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1233|app: 0|req: 1/5] 127.0.0.1 () {40 vars in 819 bytes} [Sat Jul 13 08:11:18 2019] GET /user/index => generated 262 bytes in 30 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1234|app: 0|req: 1/6] 127.0.0.1 () {40 vars in 819 bytes} [Sat Jul 13 08:11:18 2019] GET /user/index => generated 262 bytes in 30 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1234|app: 0|req: 2/7] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:12:42 2019] GET /user/index => generated 262 bytes in 2 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 5/8] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:12:42 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1233|app: 0|req: 2/9] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:21:35 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 6/10] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:21:36 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 7/11] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:21:36 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 8/12] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:21:51 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 9/13] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:22:43 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1232|app: 0|req: 1/14] 127.0.0.1 () {38 vars in 789 bytes} [Sat Jul 13 08:28:27 2019] GET /user/index => generated 262 bytes in 32 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1235|app: 0|req: 10/15] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:29:52 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk', 'sessionid': 'ctri4ho1edp778zpqniwsab9thcs457v'}
+[pid: 1234|app: 0|req: 3/16] 127.0.0.1 () {40 vars in 820 bytes} [Sat Jul 13 08:29:53 2019] GET /user/index => generated 262 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 1236)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jul 14 14:45:16 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8899 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:54170 (port auto-assigned) fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7ff835700620
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7ff835700620 pid: 1896 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1896)
+spawned uWSGI worker 1 (pid: 1898, cores: 2)
+spawned uWSGI worker 2 (pid: 1899, cores: 2)
+spawned uWSGI worker 3 (pid: 1900, cores: 2)
+spawned uWSGI worker 4 (pid: 1901, cores: 2)
+spawned uWSGI http 1 (pid: 1902)
+[pid: 1901|app: 0|req: 1/1] 127.0.0.1 () {38 vars in 795 bytes} [Sun Jul 14 06:45:34 2019] GET /user/testPost => generated 3 bytes in 31 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 1900|app: 0|req: 1/2] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 06:53:25 2019] GET /user/testPost => generated 3 bytes in 25 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1901|app: 0|req: 2/3] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 06:54:30 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 1898|app: 0|req: 1/4] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 06:54:50 2019] GET /user/testPost => generated 3 bytes in 24 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 1901|app: 0|req: 3/5] 127.0.0.1 () {40 vars in 826 bytes} [Sun Jul 14 06:55:05 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1900|app: 0|req: 2/6] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 07:00:20 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+[pid: 1901|app: 0|req: 4/7] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 07:00:39 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 1899|app: 0|req: 1/8] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 07:01:07 2019] GET /user/testPost => generated 3 bytes in 23 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+[pid: 1900|app: 0|req: 3/9] 127.0.0.1 () {32 vars in 394 bytes} [Sun Jul 14 07:07:34 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 1)
+[pid: 1901|app: 0|req: 5/10] 127.0.0.1 () {32 vars in 393 bytes} [Sun Jul 14 07:08:23 2019] GET /user/testPost => generated 3 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 88 bytes (2 switches on core 0)
+[pid: 1900|app: 0|req: 4/11] 127.0.0.1 () {40 vars in 826 bytes} [Sun Jul 14 07:08:46 2019] GET /user/testPost => generated 3 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+Not Found: /user/index/
+[pid: 1901|app: 0|req: 6/12] 127.0.0.1 () {38 vars in 791 bytes} [Sun Jul 14 07:10:15 2019] GET /user/index/ => generated 2909 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 5/13] 127.0.0.1 () {38 vars in 789 bytes} [Sun Jul 14 07:10:23 2019] GET /user/login => generated 132 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 6/14] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:10:54 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 7/15] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:11:05 2019] GET /user/login => generated 132 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 7/16] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:11:16 2019] GET /user/login => generated 132 bytes in 20 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1899|app: 0|req: 2/17] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 07:11:27 2019] GET /user/login => generated 132 bytes in 22 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 8/18] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:11:41 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 9/19] 127.0.0.1 () {40 vars in 820 bytes} [Sun Jul 14 07:11:44 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 8/20] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:12:11 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1899|app: 0|req: 3/21] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:14:32 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 9/22] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:15:31 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 10/23] 127.0.0.1 () {38 vars in 789 bytes} [Sun Jul 14 07:15:33 2019] GET /user/login => generated 132 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 11/24] 127.0.0.1 () {36 vars in 473 bytes} [Sun Jul 14 07:20:19 2019] GET /user/login => generated 132 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 10/25] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:32:33 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+Forbidden (CSRF cookie not set.): /user/login
+[pid: 1899|app: 0|req: 4/26] 127.0.0.1 () {34 vars in 408 bytes} [Sun Jul 14 07:33:53 2019] POST /user/login => generated 2629 bytes in 2 msecs (HTTP/1.1 403) 2 headers in 80 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 11/27] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:54:33 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+Forbidden (CSRF cookie not set.): /user/login
+[pid: 1901|app: 0|req: 12/28] 127.0.0.1 () {34 vars in 407 bytes} [Sun Jul 14 07:55:20 2019] POST /user/login => generated 2629 bytes in 1 msecs (HTTP/1.1 403) 2 headers in 80 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 13/29] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:55:58 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 14/30] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:58:07 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 12/31] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:59:25 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 13/32] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:59:45 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 15/33] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:59:45 2019] GET /user/login => generated 132 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 16/34] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:59:59 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 17/35] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 07:59:59 2019] GET /user/login => generated 132 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 18/36] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:00:28 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 19/37] 127.0.0.1 () {32 vars in 386 bytes} [Sun Jul 14 08:00:28 2019] GET /user/login => generated 132 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 14/38] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:02:26 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1899|app: 0|req: 5/39] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:02:26 2019] GET /user/login => generated 132 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 20/40] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 08:02:35 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 21/41] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 08:02:35 2019] GET /user/login => generated 132 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 22/42] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:03:00 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 15/43] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 08:04:41 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 23/44] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 08:04:48 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 24/45] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:06:15 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 25/46] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:06:27 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 26/47] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:06:58 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 27/48] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:07:36 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1898|app: 0|req: 2/49] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:09:11 2019] GET /user/login => generated 132 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 28/50] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:09:17 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 29/51] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:14:02 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 30/52] 127.0.0.1 () {32 vars in 387 bytes} [Sun Jul 14 08:14:14 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 31/53] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:14:34 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 16/54] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:35:35 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 32/55] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:35:44 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 33/56] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:36:11 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 17/57] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:36:40 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 34/58] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 08:36:51 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 18/59] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:00:00 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1899|app: 0|req: 6/60] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:00:26 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 19/61] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:00:49 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 35/62] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:01:33 2019] GET /user/login => generated 132 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+Forbidden (CSRF cookie not set.): /user/login
+[pid: 1901|app: 0|req: 36/63] 127.0.0.1 () {34 vars in 408 bytes} [Sun Jul 14 09:01:33 2019] POST /user/login => generated 2629 bytes in 1 msecs (HTTP/1.1 403) 2 headers in 80 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 37/64] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:01:57 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1901|app: 0|req: 38/65] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:01:57 2019] GET /user/login => generated 132 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1899|app: 0|req: 7/66] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:02:40 2019] GET /user/login => generated 132 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 1900|app: 0|req: 20/67] 127.0.0.1 () {32 vars in 388 bytes} [Sun Jul 14 09:02:40 2019] GET /user/login => generated 132 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+gateway "uWSGI http 1" has been buried (pid: 1902)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/liuchang/PycharmProjects/training1
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:54170)
+running /Users/liuchang/miniconda3/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Jul 14 16:11:40 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8899 fd 5
+uwsgi socket 0 bound to TCP address 127.0.0.1:54050 (port auto-assigned) fd 4
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7f931bc0a100
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f931bc0a100 pid: 1896 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+gracefully (RE)spawned uWSGI master process (pid: 1896)
+spawned uWSGI worker 1 (pid: 4471, cores: 2)
+spawned uWSGI worker 2 (pid: 4472, cores: 2)
+spawned uWSGI worker 3 (pid: 4473, cores: 2)
+spawned uWSGI worker 4 (pid: 4474, cores: 2)
+spawned uWSGI http 1 (pid: 4475)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 18:18:42 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 127.0.0.1:8899 fd 4
+uwsgi socket 0 bound to TCP address 127.0.0.1:51538 (port auto-assigned) fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7fb97c000de0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fb97c000de0 pid: 965 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 965)
+spawned uWSGI worker 1 (pid: 966, cores: 2)
+spawned uWSGI worker 2 (pid: 967, cores: 2)
+spawned uWSGI worker 3 (pid: 968, cores: 2)
+spawned uWSGI worker 4 (pid: 969, cores: 2)
+spawned uWSGI http 1 (pid: 970)
+SIGINT/SIGQUIT received...killing workers...
+gateway "uWSGI http 1" has been buried (pid: 970)
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 18:29:01 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8899 fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7fed23c05900
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7fed23c05900 pid: 1016 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 1016)
+spawned uWSGI worker 1 (pid: 1017, cores: 2)
+spawned uWSGI worker 2 (pid: 1018, cores: 2)
+spawned uWSGI worker 3 (pid: 1019, cores: 2)
+spawned uWSGI worker 4 (pid: 1020, cores: 2)
+Not Found: /
+[pid: 1017|app: 0|req: 1/1] 127.0.0.1 () {44 vars in 922 bytes} [Sun Aug  4 10:29:07 2019] GET / => generated 2012 bytes in 53 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 1019|app: 0|req: 1/2] 127.0.0.1 () {42 vars in 837 bytes} [Sun Aug  4 10:29:07 2019] GET /favicon.ico => generated 2045 bytes in 27 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+{'_ga': 'GA1.1.1273851041.1559465016', 'Pycharm-1ef81dcf': 'b095d099-6fbc-451d-ad20-7c0cfd199a29', 'csrftoken': 'oukaA4Jj2g0xTpsKTT85zpRwFUTlMG53'}
+[pid: 1020|app: 0|req: 1/3] 127.0.0.1 () {42 vars in 911 bytes} [Sun Aug  4 10:29:18 2019] GET /user/index => generated 327 bytes in 36 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+{'_ga': 'GA1.1.1273851041.1559465016', 'Pycharm-1ef81dcf': 'b095d099-6fbc-451d-ad20-7c0cfd199a29', 'csrftoken': 'oukaA4Jj2g0xTpsKTT85zpRwFUTlMG53'}
+[pid: 1019|app: 0|req: 2/4] 127.0.0.1 () {44 vars in 942 bytes} [Sun Aug  4 10:30:02 2019] GET /user/index => generated 327 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 0)
+...brutally killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+binary reloading uWSGI...
+chdir() to /Users/liuchang/PycharmProjects/training1
+closing all non-uwsgi socket fds > 2 (max_fd = 10240)...
+found fd 3 mapped to socket 0 (127.0.0.1:8899)
+running /Users/liuchang/miniconda3/bin/uwsgi
+[uWSGI] getting INI configuration from uwsgi.ini
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Aug  4 16:36:23 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 inherited INET address 127.0.0.1:8899 fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 17 13:54:52 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8899 fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7fe64f701470
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x7fe64f701470 pid: 3334 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3334)
+spawned uWSGI worker 1 (pid: 3335, cores: 2)
+spawned uWSGI worker 2 (pid: 3336, cores: 2)
+spawned uWSGI worker 3 (pid: 3337, cores: 2)
+spawned uWSGI worker 4 (pid: 3338, cores: 2)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 582, in connect
+    **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/middleware.py", line 50, in process_response
+    request.session.save()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 80, in save
+    return self.create()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 49, in create
+    self._session_key = self._get_new_session_key()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 155, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 45, in exists
+    return self.model.objects.filter(session_key=session_key).exists()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 651, in exists
+    return self.query.has_results(using=self.db)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/query.py", line 501, in has_results
+    return compiler.has_results()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 823, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 841, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 393, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 157, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 150, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 625, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 184, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 359, in mysql_version
+    with self.temporary_connection():
+  File "/Users/liuchang/miniconda3/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 564, in temporary_connection
+    cursor = self.cursor()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 231, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 204, in _cursor
+    self.ensure_connection()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+[pid: 3338|app: 0|req: 1/1] 127.0.0.1 () {48 vars in 906 bytes} [Sat Aug 17 05:55:09 2019] GET /user/login => generated 261816 bytes in 195 msecs (HTTP/1.1 500) 1 headers in 63 bytes (1 switches on core 0)
+Not Found: /favicon.ico
+[pid: 3338|app: 0|req: 2/2] 127.0.0.1 () {46 vars in 823 bytes} [Sat Aug 17 05:55:09 2019] GET /favicon.ico => generated 2045 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Not Found: /login
+[pid: 3337|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 896 bytes} [Sat Aug 17 05:55:34 2019] GET /login => generated 2027 bytes in 32 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 582, in connect
+    **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 711, in create_connection
+    raise err
+  File "/Users/liuchang/miniconda3/lib/python3.5/socket.py", line 702, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 61] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+pymysql.err.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 235, in get_response
+    response = middleware_method(request, response)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/middleware.py", line 50, in process_response
+    request.session.save()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 80, in save
+    return self.create()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 49, in create
+    self._session_key = self._get_new_session_key()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/base.py", line 155, in _get_new_session_key
+    if not self.exists(session_key):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/contrib/sessions/backends/db.py", line 45, in exists
+    return self.model.objects.filter(session_key=session_key).exists()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/query.py", line 651, in exists
+    return self.query.has_results(using=self.db)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/query.py", line 501, in has_results
+    return compiler.has_results()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 823, in has_results
+    return bool(self.execute_sql(SINGLE))
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 841, in execute_sql
+    sql, params = self.as_sql()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 393, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/where.py", line 79, in as_sql
+    sql, params = compiler.compile(child)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/sql/compiler.py", line 366, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 157, in as_sql
+    lhs_sql, params = self.process_lhs(compiler, connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/lookups.py", line 150, in process_lhs
+    db_type = self.lhs.output_field.db_type(connection=connection)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/models/fields/__init__.py", line 625, in db_type
+    return connection.data_types[self.get_internal_type()] % data
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 184, in data_types
+    if self.features.supports_microsecond_precision:
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/features.py", line 53, in supports_microsecond_precision
+    return self.connection.mysql_version >= (5, 6, 4) and Database.version_info >= (1, 2, 5)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/functional.py", line 33, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 359, in mysql_version
+    with self.temporary_connection():
+  File "/Users/liuchang/miniconda3/lib/python3.5/contextlib.py", line 59, in __enter__
+    return next(self.gen)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 564, in temporary_connection
+    cursor = self.cursor()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 231, in cursor
+    cursor = self.make_debug_cursor(self._cursor())
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 204, in _cursor
+    self.ensure_connection()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/utils.py", line 95, in __exit__
+    six.reraise(dj_exc_type, dj_exc_value, traceback)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/six.py", line 685, in reraise
+    raise value.with_traceback(tb)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 199, in ensure_connection
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/base/base.py", line 171, in connect
+    self.connection = self.get_new_connection(conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/db/backends/mysql/base.py", line 264, in get_new_connection
+    conn = Database.connect(**conn_params)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/__init__.py", line 94, in Connect
+    return Connection(*args, **kwargs)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 327, in __init__
+    self.connect()
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/PyMySQL-0.9.2-py3.5.egg/pymysql/connections.py", line 629, in connect
+    raise exc
+django.db.utils.OperationalError: (2003, "Can't connect to MySQL server on 'localhost' ([Errno 61] Connection refused)")
+[pid: 3336|app: 0|req: 1/4] 127.0.0.1 () {48 vars in 906 bytes} [Sat Aug 17 05:55:45 2019] GET /user/login => generated 261816 bytes in 163 msecs (HTTP/1.1 500) 1 headers in 63 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3337|app: 0|req: 2/5] 127.0.0.1 () {50 vars in 937 bytes} [Sat Aug 17 05:56:06 2019] GET /user/login => generated 132 bytes in 44 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3337|app: 0|req: 3/6] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 05:56:52 2019] GET /user/login => generated 132 bytes in 15 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3336|app: 0|req: 2/7] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 05:56:53 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3338|app: 0|req: 3/8] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 05:57:21 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3337|app: 0|req: 4/9] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 05:57:22 2019] GET /user/login => generated 132 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3337|app: 0|req: 5/10] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 05:57:22 2019] GET /user/login => generated 132 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+SIGINT/SIGQUIT received...killing workers...
+worker 4 buried after 1 seconds
+worker 3 buried after 1 seconds
+worker 2 buried after 1 seconds
+worker 1 buried after 1 seconds
+goodbye to uWSGI.
+*** Starting uWSGI 2.0.18 (64bit) on [Sat Aug 17 14:08:25 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8899 fd 3
+Python version: 3.5.2 |Continuum Analytics, Inc.| (default, Jul  2 2016, 17:52:12)  [GCC 4.2.1 Compatible Apple LLVM 4.2 (clang-425.0.28)]
+Python main interpreter initialized at 0x7f9e74409a60
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 416560 bytes (406 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x7f9e74409a60 pid: 3579 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3579)
+spawned uWSGI worker 1 (pid: 3580, cores: 2)
+spawned uWSGI worker 2 (pid: 3581, cores: 2)
+spawned uWSGI worker 3 (pid: 3582, cores: 2)
+spawned uWSGI worker 4 (pid: 3583, cores: 2)
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 16, in login
+    a1=request.GET['a']
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'a'"
+[pid: 3581|app: 0|req: 1/1] 127.0.0.1 () {50 vars in 981 bytes} [Sat Aug 17 06:08:29 2019] GET /user/login => generated 64387 bytes in 74 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Not Found: /user/login&a=dfdf
+[pid: 3582|app: 0|req: 1/2] 127.0.0.1 () {48 vars in 964 bytes} [Sat Aug 17 06:08:43 2019] GET /user/login&a=dfdf => generated 2941 bytes in 33 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 1/3] 127.0.0.1 () {48 vars in 963 bytes} [Sat Aug 17 06:08:54 2019] GET /user/login?a=dfdf => generated 132 bytes in 49 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 2/4] 127.0.0.1 () {50 vars in 994 bytes} [Sat Aug 17 06:09:49 2019] GET /user/login?a=dfdf => generated 137 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 16, in login
+    a1=request.GET['a']
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'a'"
+[pid: 3583|app: 0|req: 3/5] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:11:25 2019] GET /user/login?json=1 => generated 62631 bytes in 43 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 2/6] 127.0.0.1 () {50 vars in 994 bytes} [Sat Aug 17 06:11:34 2019] GET /user/login?a=dfdf => generated 137 bytes in 25 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 4/7] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:12:08 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 5/8] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:22:16 2019] GET /user/login?a=1 => generated 134 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 6/9] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:22:16 2019] GET /user/login?a=fgg => generated 136 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 7/10] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:22:16 2019] GET /user/login?a=ggdw => generated 137 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 3/11] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:24:34 2019] GET /user/login?a=1 => generated 134 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3580|app: 0|req: 1/12] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:24:34 2019] GET /user/login?a=fgg => generated 136 bytes in 47 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 8/13] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:24:35 2019] GET /user/login?a=ggdw => generated 137 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+liuchang
+<class 'NoneType'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 9/14] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:28:20 2019] GET /user/login?a=fgg => generated 136 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+[pid: 3582|app: 0|req: 5/16] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:28:20 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+[pid: 3582|app: 0|req: 5/16] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:28:20 2019] GET /user/login?a=ggdw => generated 137 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+liuchang
+<class 'str'>
+liuchang
+<class 'NoneType'>
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 6/17] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=ggdw => generated 137 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+[pid: 3583|app: 0|req: 11/19] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=fgg => generated 136 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+[pid: 3583|app: 0|req: 11/19] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+<class 'str'>
+liuchang
+liuchang
+<class 'NoneType'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 13/21] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=fgg => generated 136 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+[pid: 3583|app: 0|req: 13/21] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=ggdw => generated 137 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+[pid: 3581|app: 0|req: 2/22] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=1 => generated 134 bytes in 16 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'str'>
+<class 'NoneType'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 7/23] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=ggdw => generated 137 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+[pid: 3583|app: 0|req: 15/24] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=fgg => generated 136 bytes in 9 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+[pid: 3583|app: 0|req: 15/25] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:37:29 2019] GET /user/login?a=1 => generated 134 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'str'>
+<class 'NoneType'>
+liuchang
+<class 'str'>
+<class 'NoneType'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 8/28] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:40:12 2019] GET /user/login?a=ggdw => generated 137 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+[pid: 3583|app: 0|req: 16/28] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:40:12 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+[pid: 3581|app: 0|req: 3/28] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:40:12 2019] GET /user/login?a=fgg => generated 136 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 17/29] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:40:33 2019] GET /user/login?a=1 => generated 134 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3580|app: 0|req: 2/30] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:40:34 2019] GET /user/login?a=fgg => generated 136 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 18/31] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:40:35 2019] GET /user/login?a=ggdw => generated 137 bytes in 12 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 9/32] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:41:16 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 19/33] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:41:16 2019] GET /user/login?a=fgg => generated 136 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 10/34] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:41:16 2019] GET /user/login?a=ggdw => generated 137 bytes in 5 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 20/35] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:41:17 2019] GET /user/login?a=1 => generated 134 bytes in 11 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 21/36] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:41:17 2019] GET /user/login?a=fgg => generated 136 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3581|app: 0|req: 4/37] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:41:17 2019] GET /user/login?a=ggdw => generated 137 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3581|app: 0|req: 5/38] 127.0.0.1 () {32 vars in 435 bytes} [Sat Aug 17 06:41:18 2019] GET /user/login?a=1 => generated 134 bytes in 13 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 22/39] 127.0.0.1 () {32 vars in 439 bytes} [Sat Aug 17 06:41:18 2019] GET /user/login?a=fgg => generated 136 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3581|app: 0|req: 6/40] 127.0.0.1 () {32 vars in 441 bytes} [Sat Aug 17 06:41:18 2019] GET /user/login?a=ggdw => generated 137 bytes in 6 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 23/41] 127.0.0.1 () {50 vars in 994 bytes} [Sun Aug 18 13:11:20 2019] GET /user/login?a=dfdf => generated 137 bytes in 10 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+<class 'str'>
+liuchang
+liuchang
+<class 'str'>
+<class 'NoneType'>
+liuchang
+<class 'NoneType'>
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 24/44] 127.0.0.1 () {32 vars in 439 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=fgg => generated 136 bytes in 145 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+[pid: 3580|app: 0|req: 4/44] 127.0.0.1 () {32 vars in 435 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=1 => generated 134 bytes in 145 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+[pid: 3580|app: 0|req: 4/44] 127.0.0.1 () {32 vars in 441 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=ggdw => generated 137 bytes in 145 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 25/45] 127.0.0.1 () {32 vars in 435 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=1 => generated 134 bytes in 8 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 11/46] 127.0.0.1 () {32 vars in 441 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=ggdw => generated 137 bytes in 31 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
+[pid: 3581|app: 0|req: 7/47] 127.0.0.1 () {32 vars in 439 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=fgg => generated 136 bytes in 35 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+<class 'str'>
+<class 'str'>
+liuchang
+liuchang
+<class 'NoneType'>
+<class 'str'>
+<class 'NoneType'>
+liuchang
+<class 'NoneType'>
+[pid: 3583|app: 0|req: 26/50] 127.0.0.1 () {32 vars in 441 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=ggdw => generated 137 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 0)
+[pid: 3580|app: 0|req: 5/50] 127.0.0.1 () {32 vars in 435 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=1 => generated 134 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+[pid: 3582|app: 0|req: 12/50] 127.0.0.1 () {32 vars in 439 bytes} [Mon Aug 26 14:03:01 2019] GET /user/login?a=fgg => generated 136 bytes in 7 msecs (HTTP/1.1 200) 4 headers in 233 bytes (2 switches on core 1)
+*** Starting uWSGI 2.0.18 (64bit) on [Sun Sep  8 03:19:04 2019] ***
+compiled with version: 4.2.1 Compatible Apple LLVM 10.0.0 (clang-1000.10.44.4) on 13 July 2019 05:57:00
+os: Darwin-18.2.0 Darwin Kernel Version 18.2.0: Fri Oct  5 19:41:49 PDT 2018; root:xnu-4903.221.2~2/RELEASE_X86_64
+nodename: localhost
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 8
+current working directory: /Users/liuchang/PycharmProjects/training1
+writing pidfile to uwsgi.pid
+detected binary path: /Users/liuchang/miniconda3/bin/uwsgi
+chdir() to /Users/liuchang/PycharmProjects/training1
+your processes number limit is 1418
+your memory page size is 4096 bytes
+detected max file descriptor number: 10240
+lock engine: OSX spinlocks
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8899).
+bind(): Address already in use [core/socket.c line 769]
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 16, in login
+    a1=request.GET['a']
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'a'"
+[pid: 3581|app: 0|req: 8/51] 127.0.0.1 () {50 vars in 930 bytes} [Sat Sep  7 19:22:49 2019] GET /user/login => generated 64162 bytes in 125 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+Not Found: /login
+[pid: 3583|app: 0|req: 27/52] 127.0.0.1 () {48 vars in 896 bytes} [Sat Sep  7 19:24:02 2019] GET /login => generated 2027 bytes in 30 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 1)
+Not Found: /user
+[pid: 3580|app: 0|req: 6/53] 127.0.0.1 () {48 vars in 894 bytes} [Sat Sep  7 19:24:15 2019] GET /user => generated 2024 bytes in 26 msecs (HTTP/1.1 404) 2 headers in 80 bytes (1 switches on core 0)
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 16, in login
+    a1=request.GET['a']
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'a'"
+[pid: 3583|app: 0|req: 28/54] 127.0.0.1 () {48 vars in 906 bytes} [Sat Sep  7 19:25:26 2019] GET /user/login => generated 64034 bytes in 47 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+{'csrftoken': 'm1YPQkjhlTc1CgyIZxhEuP870vQ7bVWk'}
+[pid: 3583|app: 0|req: 29/55] 127.0.0.1 () {48 vars in 906 bytes} [Sat Sep  7 19:25:35 2019] GET /user/index => generated 197 bytes in 3 msecs (HTTP/1.1 200) 2 headers in 88 bytes (1 switches on core 1)
+Internal Server Error: /user/login
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 83, in __getitem__
+    list_ = super(MultiValueDict, self).__getitem__(key)
+KeyError: 'a'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 149, in get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/core/handlers/base.py", line 147, in get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "./user/views.py", line 16, in login
+    a1=request.GET['a']
+  File "/Users/liuchang/miniconda3/lib/python3.5/site-packages/django/utils/datastructures.py", line 85, in __getitem__
+    raise MultiValueDictKeyError(repr(key))
+django.utils.datastructures.MultiValueDictKeyError: "'a'"
+[pid: 3581|app: 0|req: 9/56] 127.0.0.1 () {48 vars in 906 bytes} [Sat Sep  7 19:25:43 2019] GET /user/login => generated 64034 bytes in 53 msecs (HTTP/1.1 500) 2 headers in 92 bytes (1 switches on core 0)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 13/57] 127.0.0.1 () {48 vars in 925 bytes} [Sat Sep  7 19:26:24 2019] GET /user/login?&a=hahaha => generated 139 bytes in 83 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 1)
+<class 'str'>
+liuchang
+<class 'NoneType'>
+[pid: 3582|app: 0|req: 14/58] 127.0.0.1 () {50 vars in 1000 bytes} [Sat Sep  7 19:41:04 2019] GET /user/login?&a=hahaha => generated 139 bytes in 21 msecs (HTTP/1.1 200) 4 headers in 233 bytes (1 switches on core 0)
