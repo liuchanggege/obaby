@@ -128,3 +128,5 @@ STATIC_URL = '/static/'
 STATIC_ROOT='/var/www/dailyfresh/static/'
 
 TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
+
+print(BASE_DIR)
