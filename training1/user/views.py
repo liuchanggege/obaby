@@ -1,5 +1,13 @@
 from django.shortcuts import render,HttpResponse,HttpResponseRedirect
-
+import logging
+logging.basicConfig(level=logging.DEBUG,#控制台打印的日志级别
+                    filename='new.log',
+                    filemode='a',##模式，有w和a，w就是写模式，每次都会重新写日志，覆盖之前的日志
+                    #a是追加模式，默认如果不写的话，就是追加模式
+                    format=
+                    '%(asctime)s - %(pathname)s[line:%(lineno)d] - %(levelname)s: %(message)s'
+                    #日志格式
+                    )
 # Create your views here.
 
 #cookie和session设置练习2233
@@ -8,7 +16,8 @@ def index(request):
     cookie=request.COOKIES
     context={'user':'liuchang',"cookie":cookie}
     print(cookie)
-
+    logging.warning('fddfd')
+    logging.debug('fdwwwww丰富的')
     return render(request,'user/index.html',context)
 
 def login(request):
@@ -22,6 +31,7 @@ def login(request):
     #设置cookie
     t1=Response1.set_cookie('hhqerhkeq','hhaha')
     print(type(t1))
+    mm()
     return render(request,'user/login.html',context)
     #return Response1
 
@@ -40,3 +50,7 @@ def testPost(request):
     content={"a":1,"b":2,"c":3}
     return HttpResponse(content=content)
 
+def mm(a=1):
+    if a==1:
+        raise ValueError('fddf')
+    print(a)
